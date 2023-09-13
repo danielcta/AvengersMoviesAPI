@@ -1,0 +1,106 @@
+[
+    {
+        "poster": "https://m.media-amazon.com/images/I/815oKqKUo4L.jpg",
+        "name": "The Avengers",
+        "releaseYear": "2012",
+        "sinopse": "Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade.",
+        "directors": ["Anthony Russo",
+                        "Joss Whedon",
+                        "Joe Russo"],
+        "mainActors": 
+        [
+            "Robert Downey Jr", 
+            "Scarlett Johansson",
+            "Chris Evans",
+            "Mark Ruffalo","Chris Hemsworth",
+            "Jeremy Renner",
+            "Samuel L. Jackson",
+            "Tom Hiddleston"
+        ]
+    },
+    {
+        "poster": "https://image.tmdb.org/t/p/original/tTzs0sigsjYotvnlSz2FYq0tx6M.jpg",
+        "name": "Avengers: Age of Ultron",
+        "releaseYear": "2015",
+        "sinopse": "Ao tentar proteger o planeta de ameaças, Tony Stark constrói um sistema de inteligência artificial que cuidaria da paz mundial. O projeto acaba dando errado e gera o nascimento do Ultron. Com o destino da Terra em jogo, Capitão América, Homem de Ferro, Thor, Hulk, Viúva Negra e Gavião Arqueiro terão que se unir para mais uma vez salvar a raça humana da extinção.",
+        "directors": 
+        [
+            "Joss Whedon", 
+            "Joe Russo", 
+            "Anthony Russo"
+        ],
+        "mainActors": 
+        [
+            "Robert Downey Jr", 
+            "Scarlett Johansson",
+            "Chris Evans",
+            "Mark Ruffalo",
+            "Chris Hemsworth",
+            "Jeremy Renner",
+            "Samuel L. Jackson",
+            "Tom Hiddleston",
+            "Paul Bettany",
+            "Elizabeth Olsen",
+            "Aaron Taylor-Johnson",
+            "James Spader"
+        ]
+    },
+    {
+       "poster": "https://img.elo7.com.br/product/main/266036C/big-poster-filme-vingadores-ultimato-lo47-tamanho-90x60-cm-vingadores.jpg",
+        "name": "Avengers: Infinity War",
+        "releaseYear": "2018",
+        "sinopse": "Homem de Ferro, Capitão América, Thor, Hulk e os Vingadores se unem para combater o maligno Thanos. Em uma missão para coletar todas as seis pedras infinitas, Thanos planeja usá-las para infligir sua vontade maléfica sobre a humanidade.",
+        "directors": 
+        [
+            "Anthony Russo", 
+            "Joe Russo"
+        ],
+        "mainActors":
+        [
+            "Chris Evans",
+            "Chris Hemsworth",
+            "Mark Ruffalo",
+            "Paul Bettany",
+            "Robert Downey Jr",
+            "Scarlett Johansson",
+            "Josh Brolin",
+            "Tom Holland",
+            "Benedict Cumberbatch",
+            "Anthony Mackie",
+            "Don Cheadle",
+            "Chris Pratt",
+            "Sebastian Stan",
+            "Zoë Saldaña",
+            "Vin Diesel",
+            "Karen Gillan",
+            "Chadwick Boseman",
+            "Pom Klementieff",
+            "Bradley Cooper"
+        ]
+    },
+    {
+        "poster": "https://rukminim1.flixcart.com/image/300/300/k3g73bk0/poster/h/z/s/medium-avengers-infinity-war-poster-300-gsm-hd-poster-01-original-imafmkthfqwgfd6g.jpeg",
+        "name": "Avengers: Endgame",
+        "releaseYear": "2019",
+        "sinopse": "Após Thanos eliminar metade das criaturas vivas, os Vingadores têm de lidar com a perda de amigos e entes queridos. Com Tony Stark vagando perdido no espaço sem água e comida, Steve Rogers e Natasha Romanov lideram a resistência contra o titã louco.",
+        "directors": 
+        [
+            "Anthony Russo", 
+            "Joe Russo"
+        ],
+        "mainActors":
+        [
+            "Chris Evans",
+            "Chris Hemsworth",
+            "Mark Ruffalo",
+            "Robert Downey Jr",
+            "Scarlett Johansson",
+            "Paul Rudd",
+            "Don Cheadle",
+            "Bradley Cooper",
+            "Brie Larson", 
+            "Josh Brolin",
+            "Karen Gillan"
+        ]
+    }
+]
