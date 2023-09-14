@@ -8,7 +8,7 @@ function App()
 const [ movies, setMovies ] = useState([])
 
 useEffect(() => {
-    fetch('https://github.com/danielcta/APIs/tree/main/avengers_movies')
+    fetch('https://github.com/danielcta/AvengersMovies/edit/main/avengersAPI/avengers_movies.json')
       .then(response => response.json())
       .then(data => {
         setCharacters(data.results);
