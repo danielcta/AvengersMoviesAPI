@@ -5,13 +5,43 @@ import { useEffect } from 'react'
 import { Route } from 'react-router-dom'
 
 function App() {
-            <div>
-                <img src={moviePoster}></img>
-                <h3>{movieName}</h3>
-                <h3>{releaseYear}h3>
-                <h3>{sinopse}</h3>
-                <h3>{mainActors}</h3>    
-            </div>
+  const [movies, setMovies] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetch('https://raw.githubusercontent.com/danielcta/AvengersMovies/main/avengersAPI/avengers_movies.json')
+      .then((response) => response.json())
+      .then((data) => {
+        setMovies(data.results);
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error('Error fetching movies:', error);
+      });
+  }, []);
+
+  return (
+    <div>
+      <h2>Avengers Movies</h2>
+      {loading ? (
+        <p>Carregando Filmes...</p>
+      ) : (
+        <div className="movie-list">
+          {movies.map((movie, index) => (
+            <Card
+              key={index}
+              moviePoster={movie.poster}
+              movieName={movie.name}
+              releaseYear={movie.releaseYear}
+              movieSinopse={movie.sinopse}
+              mainActors={movie.mainActors}
+            />
+          ))}
+        </div>
+      )}
+    </div>
+  );
 }
+
 
 export default App
