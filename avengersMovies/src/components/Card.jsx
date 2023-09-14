@@ -4,8 +4,19 @@ import '../App.jsx'
 
 function Card() {
 
-   
+   const [ movies, setMovies ] = useState([])
 
+useEffect(() => {
+    fetch('https://github.com/danielcta/AvengersMovies/edit/main/avengersAPI/avengers_movies.json')
+      .then(response => response.json())
+      .then(data => {
+        setCharacters(data.results);
+      })
+      .catch(error => {
+        console.error('Error fetching characters:', error);
+      });
+  }, []);
+   
     return (
         <>
             <section>
